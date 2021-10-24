@@ -1,5 +1,5 @@
-*{
-	font-family:Quicksand, sans-serif;
+* {
+    font-family: Quicksand, sans-serif;
 }
 
 .float-middle {
@@ -12,7 +12,7 @@
 
 body {
     margin-top: 0px;
-	text-align:justify;
+    text-align: justify;
 }
 
 #logo {
@@ -23,38 +23,71 @@ body {
     background-color: blanchedalmond;
 }
 
-#footer{
-    background-color:#008f93;
+#footer {
+    background-color: #008f93;
     text-align: center;
 }
-p{
-	padding: 10px 18px 18px 18px;
-	font-size:150%;
-	
-}
-p Strong{
-	color:#008f93;
-}
-h1 span{
-	font-family:Quicksand,sans-serif;
-	color: #008f93;
-	border: 5px dashed #008f93;
-	padding:5px 10px 10px 10px;
-	margin: 18px;
+
+p {
+    padding: 10px 18px 18px 18px;
+    font-size: 150%;
 }
 
-.inputField{
-	max-width:850px;
-	width:100%;
-	padding: 10px;
-	margin: 5px 20px;
+p Strong {
+    color: #008f93;
 }
-#submitButton{
-	padding:10px;
-	margin: 0px 20px 20px 20px;
-	width: auto;
-	border: none;
-	background-color:green;
-	text-align:center;
-	color: white;
+
+h1 span {
+    font-family: Quicksand, sans-serif;
+    color: #008f93;
+    border: 5px dashed #008f93;
+    padding: 5px 10px 10px 10px;
+    margin: 18px;
+}
+
+.inputField {
+    max-width: 850px;
+    width: 100%;
+    padding: 10px;
+    margin: 5px 20px;
+}
+
+#submitButton {
+    padding: 10px;
+    margin: 0px 20px 20px 20px;
+    width: auto;
+    border: none;
+    background-color: green;
+    text-align: center;
+    color: white;
+}
+
+.card {
+    font-weight: bolder;
+    display: flex;
+    align-items: center;
+    margin-top: 2em;
+    border-radius: 20%;
+    margin-bottom: 10em;
+    background-color: lemonchiffon;
+}
+
+.card-img-top {
+    display: flex;
+    justify-content: center;
+    opacity: inherit;
+}
+
+.card-title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: xx-large;
+    font-weight: bolder;
+    text-decoration: underline;
+}
+
+.card-text {
+    font-weight: bold;
+    font-size: medium;
 }
